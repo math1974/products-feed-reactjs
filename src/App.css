@@ -44,3 +44,25 @@
 .ds-flex__justify--center {
 	justify-content: center;
 }
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container__box {
+	max-width: 800px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.ds-flex__item {
+	flex: 1;
+}

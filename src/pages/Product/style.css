@@ -1,0 +1,16 @@
+.container {
+	display: flex;
+}
+
+.container__image {
+	border-radius: 8px;
+	width: 100%;
+	margin-bottom: 8px;
+}
+
+.container__item-price {
+	background: greenyellow;
+	color: green;
+	padding: 8px;
+	border-radius: 4px;
+}
